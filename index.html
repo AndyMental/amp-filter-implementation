@@ -1,0 +1,196 @@
+
+<!doctype html>
+<html amp lang="en" >
+
+<head>
+	<title>Movie Tickets, Plays, Sports, Music Concerts, Theater & Reviews BookMyShow</title>
+
+  	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!--Canonical-->
+    <link rel="canonical" href="amps.html">
+
+	<style amp-custom>
+		body {
+		  font-family: 'Roboto', Arial;
+		}
+
+		.items {
+		  display: flex;
+		  flex-direction: row;
+		  flex-wrap: wrap;
+		}
+
+		.card {
+		  min-width: 31vw;
+		  min-height: 31vw;
+		  flex: 0;
+		  margin: 1vw;
+		  position: relative;
+		}
+
+		.card amp-img img {
+		  object-fit: contain;
+		}
+	</style>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+	<noscript>
+	  <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+	</noscript>
+
+	<script>
+	  // WARNING: This script tag makes this page an INVALID AMP Page.
+	  // This code is here for demo purposes and enables the required experiments
+	  // automatically for this demo so that visitors do not need to enable them manually.
+	  var experiments = ['amp-bind'];
+	  var interval = setInterval(function () {
+	    if (window.AMP && window.AMP.isExperimentOn) {
+	      if (!allExperimentsEnabled()) {
+	        enableAllExperiments();
+	      }
+	      clearInterval(interval);
+	    }
+	  }, 50);
+	  var allExperimentsEnabled = function () {
+	    var allEnabled = true;
+	    for (var i = 0; i < experiments.length; i++) {
+	      allEnabled = allEnabled && window.AMP.isExperimentOn(experiments[i]);
+	    }
+	    return allEnabled;
+	  }
+	  var enableAllExperiments = function () {
+	    for (var i = 0; i < experiments.length; i++) {
+	      window.AMP.toggleExperiment(experiments[i], true);
+	    }
+	    window.location.reload(true);
+	  }
+	</script>
+
+	<script async custom-element="amp-bind" src="https://amphtml-ae5fc.firebaseapp.com/ampfilter/dist/v0/amp-bind-0.1.max.js"></script>
+	<script async custom-element="amp-filter" src="https://amphtml-ae5fc.firebaseapp.com/ampfilter/dist/v0/amp-filter-0.1.max.js"></script>
+	<script async src="https://amphtml-ae5fc.firebaseapp.com/ampfilter/dist/amp.js"></script>
+</head>
+
+<body>
+	<div class="movies-page">
+	    <amp-filter layout="container" operator="or" [operator]="selectedOperator">
+	        <amp-filter-condition id="onSportsShoes" attr="data-sports-shoes" condition="1">
+	        </amp-filter-condition>
+	        <amp-filter-condition id="onCasualShoes" attr="data-casual-shoes" condition="1">
+	        </amp-filter-condition>
+	        <amp-filter-condition id="on40Percent" attr="data-40-percent" condition="1">
+	        </amp-filter-condition>
+	        <amp-filter-condition id="on30Percent" attr="data-30-percent" condition="1">
+	        </amp-filter-condition>
+	        <amp-filter-condition id="on20Percent" attr="data-20-percent" condition="1">
+	        </amp-filter-condition>
+	        <h3>Filters:</h3>
+	        <label>
+	            <input type="checkbox" on="change:onSportsShoes.toggle(on=event.checked)">Sports Shoes
+	            </input>
+	        </label>
+	        <select on="change:AMP.setState({selectedOperator: event.value})">
+	            <option value="or">OR</option>
+	            <option value="and">AND</option>
+	        </select>
+	        <label>
+	            <input type="checkbox" on="change:onCasualShoes.toggle(on=event.checked)">Casual Shoes
+	            </input>
+	        </label>
+	        <!-- <select on="change:AMP.setState({selectedOperator: event.value})">
+	            <option value="or">OR</option>
+	            <option value="and">AND</option>
+	        </select> -->
+	        <label>
+	            <input type="checkbox" on="change:on40Percent.toggle(on=event.checked)">40 Percent
+	            </input>
+	        </label>
+	        <label>
+	            <input type="checkbox" on="change:on30Percent.toggle(on=event.checked)">30 Percent
+	            </input>
+	        </label>
+	        <label>
+	            <input type="checkbox" on="change:on20Percent.toggle(on=event.checked)">20 Percent
+	            </input>
+	        </label>
+	        <div class="items">
+	            <div class="product-cards" data-40-percent="0" data-30-percent="0" data-20-percent="1" data-sports-shoes="0" data-casual-shoes="1">
+				    <div class="card-wrapper">
+				        <div class="card-image">
+					        <amp-img
+		                        src="https://s-media-cache-ak0.pinimg.com/originals/3e/b2/89/3eb289726a4f88ead95166984c9eb12b.jpg"
+		                        width="350"
+		                        height="160"
+		                        alt="certification"
+		                        layout="fixed">
+		                     </amp-img>
+						</div>
+						<div class="product-productMetaInfo">
+							<div class="product-mehta">Nike</div>
+							<div class="product-product">Nike Men Blue FS Lite Run 4 Running Shoes</div>
+							<div class="product-price">Rs. 4221</div>
+						</div>
+				    </div>
+				</div>
+				<div class="product-cards" data-40-percent="1" data-30-percent="1" data-20-percent="1" data-sports-shoes="1" data-casual-shoes="0">
+				    <div class="card-wrapper">
+				        <div class="card-image">
+				        	<amp-img
+		                        src="https://s-media-cache-ak0.pinimg.com/originals/3e/b2/89/3eb289726a4f88ead95166984c9eb12b.jpg"
+		                        width="350"
+		                        height="160"
+		                        alt="certification"
+		                        layout="fixed">
+		                     </amp-img>
+						</div>
+						<div class="product-productMetaInfo">
+							<div class="product-mehta">Nike</div>
+							<div class="product-product">Nike Men Black Lunar Converge Running Shoes</div>
+							<div class="product-price">Rs. 4336</div>
+						</div>
+				    </div>
+				</div>
+				<div class="product-cards" data-40-percent="0" data-30-percent="0" data-20-percent="0" data-sports-shoes="0" data-casual-shoes="1">
+				    <div class="card-wrapper">
+				        <div class="card-image">
+				        	<amp-img
+		                        src="https://s-media-cache-ak0.pinimg.com/originals/3e/b2/89/3eb289726a4f88ead95166984c9eb12b.jpg"
+		                        width="350"
+		                        height="160"
+		                        alt="certification"
+		                        layout="fixed">
+		                     </amp-img>
+						</div>
+						<div class="product-productMetaInfo">
+							<div class="product-mehta">Nike</div>
+							<div class="product-product">Nike Women White Court Royale Sneakers</div>
+							<div class="product-price">Rs. 2866</div>
+						</div>
+				    </div>
+				</div>
+				<div class="product-cards" data-40-percent="1" data-30-percent="1" data-20-percent="0" data-sports-shoes="1" data-casual-shoes="1">
+		            <div class="card-wrapper">
+		               <div class="card-image">
+		               		<amp-img
+		                        src="https://s-media-cache-ak0.pinimg.com/originals/3e/b2/89/3eb289726a4f88ead95166984c9eb12b.jpg"
+		                        width="350"
+		                        height="160"
+		                        alt="certification"
+		                        layout="fixed">
+		                     </amp-img>
+						</div>
+						<div class="product-productMetaInfo">
+							<div class="product-mehta">Nike</div>
+							<div class="product-product">Nike Men Black Primo Court Solid Regular Sneakers</div>
+							<div class="product-price">Rs. 2877</div>
+						</div>
+		            </div>
+		         </div>
+	        </div>
+	    </amp-filter>
+	</div>
+    
+</body>
+
+</html>

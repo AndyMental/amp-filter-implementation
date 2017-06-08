@@ -1,0 +1,779 @@
+
+<!doctype html>
+<html amp lang="en" >
+
+<head>
+	<title>Movie Tickets, Plays, Sports, Music Concerts, Theater & Reviews BookMyShow</title>
+
+	<meta name="keywords" content="Ticket Booking Movies, Movie Tickets, Big Cinema, Ags, Inox, Movie Online Booking, Concert, Play, Event, Comedy Show Tickets, IPL, PVR Cinemas, T20 Tickets, Online Movie Ticket, Movie Trailers, Reviews">
+
+	<meta name="description" content="Movie Tickets Online Booking. Book &amp; Buy Events, Plays, Music Concert, Cinema, Theater, Sports, T20 &amp; World Cup Cricket Match, English, Tamil, Telugu &amp; Hindi Movie Tickets, Trailers &amp; Reviews.">
+
+	<!--Fav Icon-->
+	<link rel="apple-touch-icon" href="//in.bmscdn.com/m6/images/icons/icon-ios-60.png" data-reactid="19" />
+    <link rel="apple-touch-icon" sizes="76x76" href="//in.bmscdn.com/m6/images/icons/icon-ios-76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="//in.bmscdn.com/m6/images/icons/icon-ios-120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="//in.bmscdn.com/m6/images/icons/icon-ios-152.png" />
+    <link rel="icon" sizes="192x192" href="//in.bmscdn.com/m6/images/icons/icon-android-192.png"  />
+	<!-- FOR FACEBOOK -->
+	<meta property="og:site_name" content="BookMyShow" />
+	<meta property="fb:app_id" content="165665113451029" />
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Book My Show" />
+	<meta name="distribution" content="global" />
+	<meta name="rating" content="general" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="mobile-web-app-capable" content="yes" data-reactid="8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="theme-color" content="#333545" />
+
+ 	<link rel="canonical" href="amps.html">
+
+	<style amp-custom>
+		body {
+		  font-family: 'Roboto', Arial;
+		}
+
+		.items {
+		  display: flex;
+		  flex-direction: row;
+		  flex-wrap: wrap;
+		}
+
+		.card {
+		  min-width: 31vw;
+		  min-height: 31vw;
+		  flex: 0;
+		  margin: 1vw;
+		  position: relative;
+		}
+
+		.card amp-img img {
+		  object-fit: contain;
+		}
+	</style>
+	<style amp-custom>
+		/*
+		* CSS Reset Code
+		*/
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed,
+		figure, figcaption, footer, header, hgroup,
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure,
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		* {
+			outline: 0;
+		}
+
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+
+		/*
+		* Container
+		*/
+
+		.container {
+			background: #f0f0f0;
+			position: relative;
+		}
+
+		/*
+		* Header Tab
+		*/
+
+		.header-tab {
+		    width: 100%;
+		    background: #1f2533;
+		    padding: 15px 0;
+		    z-index: 11;
+		    text-align: center;
+		    border-bottom: 1px solid #1f2533;
+		}
+
+		.amp-logo {
+		    display: inline-block;
+		    width: 95px;
+		    height: 25px;
+		    background: url("https://in.bmscdn.com/webin/static/amp-logo.png") no-repeat;
+		    background-size: cover;
+		}
+
+		.hearts {
+			width: 66px;
+			height: 60px;
+			display: inline-block;
+			background: url('https://in.bmscdn.com/webin/icons/new-amp-sprites.png') no-repeat -2px -69px;
+			float: left;
+			margin: 5px 5px 0 -12px;
+			transform: scale(0.6) translateY(-25px);
+			-ms-transform: scale(0.6) translateY(-25px);
+			-webkit-transform: scale(0.6) translateY(-25px);
+			-moz-transform: scale(0.6) translateY(-25px);
+		}
+
+		.thumbs-up {
+			width: 59px;
+			height: 51px;
+			display: inline-block;
+			background: url('https://in.bmscdn.com/webin/icons/new-amp-sprites.png') no-repeat -4px -5px;
+			float: left;
+			margin: 5px 5px 0 -8px;
+			transform: scale(0.65) translateY(-20px);
+			-webkit-transform: scale(0.65) translateY(-20px);
+			-ms-transform: scale(0.65) translateY(-20px);
+			-moz-transform: scale(0.65) translateY(-20px);
+		}
+
+		/*
+		* Footer
+		*/
+
+		.footer {
+			background: #f0f0f0;
+		    text-align: center;
+		    width: 100%;
+		    padding: 22px 10px;
+		    box-sizing: border-box;
+		}
+
+		.movie-poster {
+			display: none;
+		}
+
+		/*
+		* NAV ICONS
+		*/
+
+		button {
+			position: absolute;
+		    color: #fff;
+		    top: 20px;
+		    left: 10px;
+		    background: transparent;
+		    border: 0;
+		    z-index: 11;
+		}
+
+		.nav-icon {
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+		    background: url('https://in.bmscdn.com/webin/icons/hamburger.png') no-repeat;
+		    background-size: 20px;
+		}
+
+		/*
+		* SIDEBAR
+		*/
+		#sidebar {
+			color: #fff;
+			background: -webkit-linear-gradient(315deg,#da3159,#794a8b 80%,#754b8d);
+		    background: -moz-linear-gradient(315deg,#da3159 0,#794a8b 80%,#754b8d 100%);
+		    background: -o-linear-gradient(315deg,#da3159 0,#794a8b 80%,#754b8d 100%);
+		    background: linear-gradient(135deg,#da3159,#794a8b 80%,#754b8d);
+		}
+
+		#sidebar .cross {
+			position: absolute;
+			top: 15px;
+			right: 20px;
+			font-size: 20px;
+		}
+
+		#sidebar ul{
+			margin: 55px 0 0;
+			font-family: "Source Sans Pro", sans-serif;
+		}
+
+		#sidebar ul li{
+			list-style-type: none;
+			padding: 15px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		#sidebar ul li a{
+			color: #fff;
+		    text-decoration: none;
+		    font-family: "Source Sans Pro", sans-serif;
+		    display: inline-block;
+		    font-size: 16px;
+		    line-height: 20px;
+		    vertical-align: middle;
+		    margin-left: 3px;
+		    transform: translateY(-4px);
+		    -webkit-transform: translateY(-4px);
+			-ms-transform: translateY(-4px);
+			-moz-transform: translateY(-4px);
+		}
+
+		/*
+		* SHARRE ICONS
+		*/
+
+		.share-icons {
+			margin-left: -5px;
+			display: inline-block;
+			text-decoration: none;
+			background: url('https://in.bmscdn.com/webin/icons/new-amp-sprites.png') no-repeat;
+			transform: scale(0.5);
+			-webkit-transform: scale(0.5);
+			-ms-transform: scale(0.5);
+			-moz-transform: scale(0.5);
+		}
+
+		.facebook {
+			width: 38px;
+			height: 38px;
+			background-position: -8px -246px;
+		}
+
+		.twitter {
+			width: 45px;
+			height: 38px;
+			background-position: -6px -484px;
+		}
+
+		.gplus {
+			width: 57px;
+			height: 36px;
+			background-position: -3px -294px;
+		}
+
+		.youtube {
+			width: 45px;
+			height: 32px;
+			background-position: -6px -532px;
+		}
+
+		.instagram {
+			width: 37px;
+			height: 37px;
+			background-position: -9px -341px;
+		}
+
+		.linkedin {
+			width: 38px;
+			height: 38px;
+			background-position: -8px -388px;
+		}
+
+		.pinterest {
+			width: 38px;
+			height: 38px;
+			background-position: -8px -436px;
+		}
+
+		/*
+		* Movies
+		*/
+
+		/*
+		* Now Showing
+		*/
+
+		.now-showing-wrapper,
+		.coming-soon-wrapper,
+		.others {
+			width: 90%;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.card {
+			position: relative;
+			max-width: 350px;
+		    width: 100%;
+		    padding: 6px 10px;
+		    overflow: hidden;
+		    box-sizing: border-box;
+		    display: inline-block;
+		}
+
+		.card-wrapper {
+			position: relative;
+		    -webkit-box-shadow: 0 0 7px 2px #d1d1d1;
+		    box-shadow: 0 0 7px 2px #d1d1d1;
+		    background-color: #fff;
+		    min-height: 162px;
+		}
+
+		.poster-container {
+			position: relative;
+		}
+
+		.movies-image {
+			background-color: #f5f5f5;
+			background-position: 50%;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100%;
+		}
+
+		.card-wrapper .poster-info {
+			display: table;
+		    width: 100%;
+		    table-layout: fixed;
+		    padding: 12px;
+		    overflow: hidden;
+		    box-sizing: border-box;
+		}
+
+		.card-wrapper .poster-info .movie-info {
+			display: table-cell;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.card-wrapper .poster-info .movie-info .__title {
+		    font-size: 14px;
+		    line-height: 18px;
+		    font-weight: 500;
+		    color: #333;
+		    display: inline-block;
+		    width: 100%;
+		    white-space: nowrap;
+		    text-overflow: ellipsis;
+		    overflow: hidden;
+		}
+
+		.card-wrapper .poster-info .movie-info .bottom-bar {
+		    font-size: 12px;
+		    font-weight: 400;
+		    margin-top: 4px;
+		}
+
+		.card-wrapper .poster-info .movie-info .bottom-bar .__language {
+		    display: inline-block;
+		    margin-right: 6px;
+		    color: #999;
+		    list-style-type: none;
+		    vertical-align: super;
+		}
+
+		.card-wrapper .poster-info .movie-info .bottom-bar .__language li {
+		    text-transform: capitalize;
+		}
+
+		.card-wrapper .poster-info .movie-info .bottom-bar .__tags {
+		    display: block;
+		    padding: 0;
+		    list-style-type: none;
+		}
+
+		.card-wrapper .poster-info .movie-info .bottom-bar .__tags li {
+		    float: left;
+		    cursor: pointer;
+		    border: 1px solid #d1d1d1;
+		    color: #666;
+		    background-color: #fff;
+		    border-radius: 2px;
+		    padding: 1px 5px 0;
+		    margin-right: 2px;
+		    margin-top: 5px;
+		}
+
+		.card-wrapper .poster-info .movie-info .bottom-bar .__tags li:last-child {
+		    margin-right: 0;
+		}
+
+		.card-wrapper .poster-info .action-button {
+		    display: table-cell;
+		    vertical-align: middle;
+		    width: 82px;
+		    padding-left: 10px;
+		}
+
+		.card-wrapper .poster-info .action-button .book-button {
+		    color: #fff;
+		    text-align: center;
+		    font-size: 14px;
+		    line-height: 18px;
+		    font-weight: 700;
+		    background-color: #fe2e55;
+		    outline: none;
+		    border: none;
+		    text-transform: uppercase;
+		    border-radius: 4px;
+		    letter-spacing: 1px;
+		    padding: 10px;
+		    width: 100%;
+		    height: 30px;
+		    box-sizing: border-box;
+		    text-decoration: none;
+		    margin-left: 15px;
+		}
+
+		.movies-image {
+			background: url('https://in.bmscdn.com/events/mobile/noimage.jpg') no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 140px;
+			overflow: hidden;
+			background-position: top center; 
+		}
+
+		.certification.__icon {
+			position: absolute;
+			bottom: 15px;
+			left: 8px;
+		}
+
+		/*
+		* Coming Soon
+		*/
+		.release-date {
+			position: absolute;
+		    right: 10px;
+		    bottom: -30px;
+		    background-color: #4ec697;
+		    color: #fff;
+		    width: 50px;
+		    font-size: 12px;
+		    font-weight: 700;
+		    text-align: center;
+		    padding: 5px;
+		}
+
+		/*
+		* Now Showing & Coming Soon Tab
+		*/
+		nav {
+		    text-align: center;
+		    width: 210px;
+		    margin: 15px auto;
+		    background-color: #4b4c5b;
+		}
+
+		nav ul {
+			overflow: hidden;
+		}
+
+		nav ul li {
+		    width: 50%;
+		    float: left;
+		    border-radius: 4px;
+		}
+
+		nav ul li a {
+		    color: #fff;
+			font-size: 11px;
+		    line-height: 15px;
+		    font-weight: 500;
+		    width: 105px;
+		    text-transform: uppercase;
+		    text-decoration: none;
+		    padding: 8px 10px;
+		    display: inline-block;
+		    box-sizing: border-box;
+		}
+
+		nav ul li a.__active {
+			background-color: #fd3259;
+		}
+
+		/*
+		* Genre
+		*/
+		.__genre {
+			width: 100%;
+		    float: left;
+		    height: auto;
+		    margin-top: 8px;
+		}
+
+		.__genre li {
+			margin-bottom: 5px;
+		    background: #f4f4f4;
+		    text-align: center;
+		    font-size: 10px;
+		    text-transform: capitalize;
+		    display: inline-block;
+		    cursor: pointer;
+		    border: 1px solid #d1d1d1;
+		    color: #666;
+		    margin-right: 4px;
+		    background-color: #fff;
+		    border-radius: 2px;
+		    padding: 4px 6px;
+		}
+	</style>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+	<noscript>
+	  <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+	</noscript>
+
+	<script>
+	  // WARNING: This script tag makes this page an INVALID AMP Page.
+	  // This code is here for demo purposes and enables the required experiments
+	  // automatically for this demo so that visitors do not need to enable them manually.
+	  var experiments = ['amp-bind'];
+	  var interval = setInterval(function () {
+	    if (window.AMP && window.AMP.isExperimentOn) {
+	      if (!allExperimentsEnabled()) {
+	        enableAllExperiments();
+	      }
+	      clearInterval(interval);
+	    }
+	  }, 50);
+	  var allExperimentsEnabled = function () {
+	    var allEnabled = true;
+	    for (var i = 0; i < experiments.length; i++) {
+	      allEnabled = allEnabled && window.AMP.isExperimentOn(experiments[i]);
+	    }
+	    return allEnabled;
+	  }
+	  var enableAllExperiments = function () {
+	    for (var i = 0; i < experiments.length; i++) {
+	      window.AMP.toggleExperiment(experiments[i], true);
+	    }
+	    window.location.reload(true);
+	  }
+	</script>
+
+	<script async custom-element="amp-bind" src="https://amphtml-ae5fc.firebaseapp.com/ampfilter/dist/v0/amp-bind-0.1.max.js"></script>
+	<script async custom-element="amp-filter" src="https://amphtml-ae5fc.firebaseapp.com/ampfilter/dist/v0/amp-filter-0.1.max.js"></script>
+	<script async src="https://amphtml-ae5fc.firebaseapp.com/ampfilter/dist/amp.js"></script>
+</head>
+
+<body>
+	<div class="movies-page">
+		<!--BMS Logo-->
+		<div class="header-tab">
+		    <a href="/" class="amp-logo"></a>
+		</div>
+		<h1>AMP Filter with simple condition:</h1>
+	    <amp-filter layout="container" operator="or" [operator]="selectedOperator">
+	        <amp-filter-condition id="onNowShowing" attr="data-now-showing" condition="1">
+	        </amp-filter-condition>
+	        <amp-filter-condition id="onComingSoon" attr="data-coming-soon" condition="1">
+	        </amp-filter-condition>
+	        <h3>Filters:</h3>
+	        <label>
+	            <input type="checkbox" on="change:onNowShowing.toggle(on=event.checked)"> Now Showing
+	            </input>
+	        </label>
+	        <select on="change:AMP.setState({selectedOperator: event.value})">
+	            <option value="or">OR</option>
+	            <option value="and">AND</option>
+	        </select>
+	        <label>
+	            <input type="checkbox" on="change:onComingSoon.toggle(on=event.checked)"> Coming Soon
+	            </input>
+	        </label>
+	        <div class="items">
+	            <div class="card" data-now-showing="0" data-coming-soon="1">
+				    <div class="card-wrapper">
+				        <div class="poster-container">
+				            <div class="movies-image">
+				                <amp-img src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/medium/guardians-of-the-galaxy-vol.jpg" width="350" height="160" alt="Guardians of the Galaxy Vol. 2" layout="responsive">
+				                </amp-img>
+				            </div>
+				            <span class="certification __icon">
+				                     <amp-img
+				                        src="https://in.bmscdn.com/webin/static/amp/ua-new.png"
+				                        width="30"
+				                        height="30"
+				                        alt="certification"
+				                        layout="fixed">
+				                     </amp-img>
+				                  </span>
+				        </div>
+				        <div class="poster-info">
+				            <div class="movie-info">
+				                <span class="__title">Guardians of the Galaxy Vol. 2 </span>
+				                <div class="bottom-bar">
+				                    <ul class="__language">
+				                        <li>Hindi, English</li>
+				                    </ul>
+				                    <ul class="__genre">
+				                        <li>Action</li>
+				                        <li> Adventure</li>
+				                        <li> Fantasy</li>
+				                    </ul>
+				                </div>
+				            </div>
+				            <div class="action-button">
+				                <a href="/amp/buytickets/-/movie--ET00048079-MT/20170506/" class="book-button ripple">Book</a>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+				<div class="card" data-now-showing="1" data-coming-soon="0">
+				    <div class="card-wrapper">
+				        <div class="poster-container">
+				            <div class="movies-image">
+				                <amp-img src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/medium/baahubali-2-the-conclusion-et00056481-25-04-2017-01-28-13.jpg" width="350" height="160" alt="Baahubali 2: The Conclusion" layout="responsive">
+				                </amp-img>
+				            </div>
+				            <span class="certification __icon">
+				                     <amp-img
+				                        src="https://in.bmscdn.com/webin/static/amp/ua-new.png"
+				                        width="30"
+				                        height="30"
+				                        alt="certification"
+				                        layout="fixed">
+				                     </amp-img>
+				                  </span>
+				        </div>
+				        <div class="poster-info">
+				            <div class="movie-info">
+				                <span class="__title"> Baahubali 2: The Conclusion </span>
+				                <div class="bottom-bar">
+				                    <ul class="__language">
+				                        <li>
+				                            Hindi, Tamil, Telugu
+				                        </li>
+				                    </ul>
+				                    <ul class="__genre">
+				                        <li>Action</li>
+				                        <li> Drama</li>
+				                        <li> Fantasy</li>
+				                        <li> Action</li>
+				                        <li> Drama</li>
+				                    </ul>
+				                </div>
+				            </div>
+				            <div class="action-button">
+				                <a href="/amp/buytickets/-/movie--ET00038693-MT/20170506/" class="book-button ripple">Book</a>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+				<div class="card" data-now-showing="0" data-coming-soon="1">
+				    <div class="card-wrapper">
+				        <div class="poster-container">
+				            <div class="movies-image">
+				                <amp-img src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/medium/maatr-et00054500-08-03-2017-05-27-11.jpg" width="350" height="160" alt="Maatr" layout="responsive">
+				                </amp-img>
+				            </div>
+				            <span class="certification __icon">
+				                     <amp-img
+				                        src="https://in.bmscdn.com/webin/static/amp/a-new.png"
+				                        width="30"
+				                        height="30"
+				                        alt="certification"
+				                        layout="fixed">
+				                     </amp-img>
+				                  </span>
+				        </div>
+				        <div class="poster-info">
+				            <div class="movie-info">
+				                <span class="__title"> Maatr </span>
+				                <div class="bottom-bar">
+				                    <ul class="__language">
+				                        <li>Hindi</li>
+				                    </ul>
+				                    <ul class="__tags">
+				                    </ul>
+				                    <ul class="__genre">
+				                        <li>Drama</li>
+				                        <li> Thriller</li>
+				                    </ul>
+				                </div>
+				            </div>
+				            <div class="action-button">
+				                <a href="/amp/buytickets/-/movie--ET00054500-MT/20170506/" class="book-button ripple">Book</a>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+				<div class="card" data-now-showing="1" data-coming-soon="1">
+		            <div class="card-wrapper">
+		               <div class="poster-container">
+		                  <div class="movies-image">
+		                     <amp-img src="https://in.bmscdn.com/iedb/movies/images/mobile/listing/medium/noor-et00042498-17-04-2017-17-57-00.jpg" width="350" height="160" alt="Noor" layout="responsive">
+		                     </amp-img>
+		                  </div>
+		                  <span class="certification __icon">
+		                     <amp-img
+		                        src="https://in.bmscdn.com/webin/static/amp/ua-new.png"
+		                        width="30"
+		                        height="30"
+		                        alt="certification"
+		                        layout="fixed">
+		                     </amp-img>
+		                  </span>
+		               </div>
+		               <div class="poster-info">
+		                  <div class="movie-info">
+		                     <span class="__title">
+		                     Noor										</span>
+		                     <div class="bottom-bar">
+		                        <ul class="__language">
+		                           <li>
+		                              Hindi 
+		                           </li>
+		                        </ul>
+		                        <ul class="__tags">
+		                           <!-- <li class="tag-2D">2D</li> -->
+		                           <!-- <li></li> -->
+		                        </ul>
+		                        <ul class="__genre">
+		                           <!-- <li class="tag-2D">2D</li> -->
+		                           <li>Adventure</li>
+		                           <li> Comedy</li>
+		                           <li> Romance</li>
+		                        </ul>
+		                     </div>
+		                  </div>
+		                  <div class="action-button">
+		                     <a href="/amp/buytickets/-/movie--ET00042498-MT/20170506/" class="book-button ripple">Book</a>
+		                  </div>
+		               </div>
+		            </div>
+		         </div>
+	            
+	        </div>
+	    </amp-filter>
+	</div>
+    
+</body>
+
+</html>
